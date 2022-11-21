@@ -1,0 +1,52 @@
+.head{
+    text-align: center;
+}
+.subhead{
+    text-align: center;
+}
+
+.vijay{
+    height: 325px;
+}
+p{
+    text-align: center;
+}
+.master{
+  margin-left: 120px;
+}
+.maanadu{
+    margin-left: 120px;
+}
+.lovetoday{
+    margin-left: 120px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .head{
+        text-align: center;
+    }
+    .subhead{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .master{
+        margin-left: 150px;
+      }
+      .maanadu{
+        margin-left: 150px;
+    }
+    .lovetoday{
+        margin-left: 150px;
+    }
+
+
+  }
+
+
+
