@@ -33,12 +33,12 @@
  function vikram(){
      var audio=new Audio('songs/vikram.mp3');
     audio.play();
-<<<<<<< HEAD
+
      document.querySelectorAll("p")[0].innerHTML="Now Playing Vikram";
  }
-=======
+
     document.querySelectorAll("p")[0].innerHTML="Now Playing  Love Today ";
-}
+
 
 
 
@@ -88,4 +88,4 @@ function vikram(){
 //     audio.play();
 //     document.querySelectorAll("p")[0].innerHTML="Now Playing Vikram";
 // }
->>>>>>> 80717c3d7bd3ccc7a09b5cd9172d0a61abba2e11
+
