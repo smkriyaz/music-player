@@ -1,91 +1,45 @@
+document.getElementsByClassName("master")[0].addEventListener("click",function(){
+  var audio=  document.getElementById("master");
+  audio.play();
+  document.getElementsByClassName("bottom")[0].innerHTML="Playing Master"
 
-    document.querySelectorAll("button")[2].addEventListener("click" , songMaster);
+})
+document.getElementsByClassName("master")[1].addEventListener("click",function(){
+    var audio1=  document.getElementById("master");
+    audio1.pause();
+    document.getElementsByClassName("bottom")[0].innerHTML="Paused Master"
+  })
 
-
- function songMaster(){
-     var audio = new Audio('songs/Master.mp3');
+  document.getElementsByClassName("maanaadu")[0].addEventListener("click",function(){
+    var audio=document.getElementById("maanadu");
     audio.play();
-    
-     document.querySelectorAll("p")[0].innerHTML="Now Playing  Vaathi Coming";
-    
- }
+    document.getElementsByClassName("bottom")[0].innerHTML="Playing Maanaadu";
+  })
+  document.getElementsByClassName("maanaadu")[1].addEventListener("click",function(){
+    var audio=document.getElementById("maanadu");
+    audio.pause();
+    document.getElementsByClassName("bottom")[0].innerHTML="Paused Maanaadu";
+  })
 
- document.querySelectorAll("button")[3].addEventListener("click" , songmaanadu);
- 
- function songmaanadu(){
-     var audio=new Audio('songs/maanadu.mp3');
+
+  document.getElementsByClassName("love")[0].addEventListener("click",function(){
+    var audio=document.getElementById("love");
     audio.play();
-     document.querySelectorAll("p")[0].innerHTML="Now Playing  Maanaadu";
- }
+    document.getElementsByClassName("bottom")[0].innerHTML="Playing Lovetoday";
+  })
+  document.getElementsByClassName("love")[1].addEventListener("click",function(){
+    var audio=document.getElementById("love");
+    audio.pause();
+    document.getElementsByClassName("bottom")[0].innerHTML="Paused lovetoday";
+  })
 
- document.querySelectorAll("button")[4].addEventListener("click", lovetoday);
-
- function lovetoday(){
-     var audio=new Audio('songs/love today.mp3');
-     audio.play();
-     document.querySelectorAll("p")[0].innerHTML="Now Playing  Love Today ";
- }
-
-
-
- document.querySelectorAll("button")[5].addEventListener("click", vikram);
-
- function vikram(){
-     var audio=new Audio('songs/vikram.mp3');
+  document.getElementsByClassName("vikram")[0].addEventListener("click",function(){
+    var audio=document.getElementById("vikram");
     audio.play();
-
-     document.querySelectorAll("p")[0].innerHTML="Now Playing Vikram";
- }
-
-    document.querySelectorAll("p")[0].innerHTML="Now Playing  Love Today ";
-
-
-
-
-document.querySelectorAll(".vikram")[0].addEventListener("click", vikram);
-
-function vikram(){
-    var audio=new Audio('songs/vikram.mp3');
-    audio.play();
-    document.querySelectorAll("p")[0].innerHTML="Now Playing Vikram";
-}
-
-
-
-//     document.querySelectorAll("button")[2].addEventListener("click" , songMaster);
-
-
-
-// function songMaster(){
-//     var audio = new Audio('songs/Master.mp3');
-//     audio.play();
-//     document.querySelectorAll("p")[0].innerHTML="Now Playing  Vaathi Coming";
-    
-// }
-
-// document.querySelectorAll("button")[3].addEventListener("click" , songmaanadu);
- 
-// function songmaanadu(){
-//     var audio=new Audio('songs/maanadu.mp3');
-//     audio.play();
-//     document.querySelectorAll("p")[0].innerHTML="Now Playing  Maanaadu";
-// }
-
-// document.querySelectorAll("button")[4].addEventListener("click", lovetoday);
-
-// function lovetoday(){
-//     var audio=new Audio('songs/love today.mp3');
-//     audio.play();
-//     document.querySelectorAll("p")[0].innerHTML="Now Playing  Love Today ";
-// }
-
-
-
-// document.querySelectorAll("button")[5].addEventListener("click", vikram);
-
-// function vikram(){
-//     var audio=new Audio('songs/vikram.mp3');
-//     audio.play();
-//     document.querySelectorAll("p")[0].innerHTML="Now Playing Vikram";
-// }
-
+    document.getElementsByClassName("bottom")[0].innerHTML="Playing vikram";
+  })
+  document.getElementsByClassName("vikram")[1].addEventListener("click",function(){
+    var audio=document.getElementById("vikram");
+    audio.pause();
+    document.getElementsByClassName("bottom")[0].innerHTML="Paused vikram";
+  })
